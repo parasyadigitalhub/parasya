@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Nunito:wght@300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,11 +19,22 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.grad-neonred {
+  background: var(
+    --neon-red,
+    linear-gradient(
+      90deg,
+      #686868 -18.03%,
+      rgba(0, 0, 0, 0.68) 50.03%,
+      rgba(0, 0, 0, 0.73) 69.07%,
+      #a14646 131.73%
+    ),
+    #252525
+  );
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
