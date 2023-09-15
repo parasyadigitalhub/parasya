@@ -1,3 +1,4 @@
+import Incorporate from "@/components/Incorporate";
 import Intro from "@/components/Intro";
 import Service from "@/components/Service";
 
@@ -12,6 +13,9 @@ export default function Home() {
       </div>
       <div className="snap-center" id="services">
         <Service />
+      </div>
+      <div className="snap-center" id="companyincorporation">
+        <Incorporate />
       </div>
     </div>
   );
