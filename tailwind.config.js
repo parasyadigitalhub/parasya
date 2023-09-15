@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         mulish: ["Mulish"],
         nunito: ["Nunito"],
+        raleway: ["Raleway"],
       },
       colors: {
         pred: "#C1272D",
