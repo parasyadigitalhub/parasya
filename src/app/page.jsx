@@ -1,11 +1,12 @@
 import Incorporate from "@/components/Incorporate";
 import Intro from "@/components/Intro";
+import Legal from "@/components/Legal";
 import Service from "@/components/Service";
 
 export default function Home() {
   return (
     <div
-      className="snap-y sm:snap-mandatory snap-proximity w-screen h-screen overflow-scroll"
+      className="snap-y snap-mandatory w-screen h-screen overflow-scroll"
       style={{ scrollBehavior: "smooth" }}
     >
       <div className="snap-center">
@@ -16,6 +17,9 @@ export default function Home() {
       </div>
       <div className="snap-center" id="companyincorporation">
         <Incorporate />
+      </div>
+      <div className="snap-center" id="legalsupport">
+        <Legal />
       </div>
     </div>
   );

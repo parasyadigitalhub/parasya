@@ -6,7 +6,7 @@ const Instruction = () => {
       <p className="text-center text-2xl font-bold font-nunito text-[#EBEBEB] underline mb-4 uppercase pt-3">
         How it Works
       </p>
-      <div className="flex flex-col lg:flex-row w-full h-full justify-center items-center gap-[50px] lg:gap-[150px] bg-[#1B1B1B] pb-4">
+      <div className="flex flex-col lg:flex-row w-full h-full justify-center items-center gap-[50px] lg:gap-[80px] xl:gap-[150px] bg-[#1B1B1B] pb-4">
         <div className="text-white flex flex-col justify-center items-center">
           <div
             className="w-32 h-32 rounded-[50%] flex justify-center items-center overflow-hidden object-cover"
