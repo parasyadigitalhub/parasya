@@ -2,6 +2,7 @@ import Incorporate from "@/components/Incorporate";
 import Intro from "@/components/Intro";
 import Legal from "@/components/Legal";
 import Service from "@/components/Service";
+import Social from "@/components/Social";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className="snap-center" id="legalsupport">
         <Legal />
+      </div>
+      <div className="snap-center" id="digitalmarketing">
+        <Social />
       </div>
     </div>
   );
