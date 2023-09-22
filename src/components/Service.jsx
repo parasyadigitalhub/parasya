@@ -3,63 +3,61 @@ import BoxList from "./BoxList";
 
 const Service = () => {
   let options = [
-    "Company Incorporation",
-    "legal Support",
-    "Digital Marketing",
-    "Application Development",
-    "Website Development",
+    {
+      href: "incorporation",
+      name: "Expert Company Incorporation and Legal Solutions",
+      nameColor: "#DCB280",
+      description:
+        "Empowering Your Business Journey with Seamless Legal Compliance and Setup",
+      image: "legal.jpg",
+    },
+    {
+      href: "social",
+      name: "Strategic Social Media Marketing Solutions",
+      nameColor: "#C1272D",
+      description:
+        "Boosting Your Online Presence and Engagement for Digital Success",
+      image: "socialcover.jpg",
+    },
+    {
+      href: "web",
+      name: "Bespoke Web and App Development",
+      nameColor: "#FC9925",
+      description:
+        "Transforming Your Ideas into Exceptional Digital Experiences",
+      image: "web.png",
+    },
   ];
   return (
-    <div className="w-screen h-screen grad-neonred font-raleway ">
-      <div className="w-full flex justify-center items-center">
-        <span className=" relative text-center font-nunito text-white text-5xl pt-8 font-bold border-b-2 pb-1 border-white">
-          Our Services
-        </span>
+    <div className="w-screen h-screen bg-[#8E0000] font-raleway px-16 relative">
+      <div className="w-full h-full top-0 right-0 z-0 absolute">
+        <Image
+          src="/serviceCover.png"
+          width={600}
+          height={600}
+          className="float-right relative"
+        />
       </div>
-
-      <div className="h-5/6 flex flex-col lg:flex-row justify-around items-center">
-        <div className="flex-1 object-fit flex justify-center items-center w-full h-full">
-          <Image
-            src="/services.png"
-            width={400}
-            height={400}
-            alt="parasya"
-            className="object-fit scale-[0.60] lg:scale-[0.9]"
-          ></Image>
+      <div className="flex flex-col jusify-center items-center z-10">
+        <div className="w-full flex justify-start items-center ">
+          <span className=" relative text-white font-raleway leading-[150%] text-[#1c1c1c] text-4xl pt-8 font-bold text-left">
+            Intergrated Buisness Solutions <br /> for Growth and Success
+          </span>
         </div>
-        <div className="text-white flex-1">
+        <div className="w-full text-left z-10">
+          <span className="text-white text-base font-light font-raleway mt-4 lg:w-[1057px] tracking-tight text-left block">
+            At Parasya, we understand that every business is unique. Our
+            tailored solutions encompass a wide spectrum of services, from
+            strategic planning and financial management to cutting-edge
+            technology implementation. We believe that a holistic approach to
+            business is key to sustained success, which is why our team of
+            experts collaborates closely with you to identify opportunities,
+            mitigate risks, and create a roadmap to achieve your goals.
+          </span>
+        </div>
+        <div className="z-10 w-full h-full px-4">
           <BoxList options={options} />
         </div>
-      </div>
-      <div className="w-full flex justify-center text-center bottom-0 mb-16">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1040"
-          height="2"
-          viewBox="0 0 1040 2"
-          fill="none"
-        >
-          <path
-            d="M1 1H1039.02"
-            stroke="url(#paint0_linear_103_65)"
-            stroke-width="0.5"
-            stroke-linecap="round"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_103_65"
-              x1="1039"
-              y1="1"
-              x2="1"
-              y2="1"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#565555" stop-opacity="0" />
-              <stop offset="0.479167" stop-color="#838383" />
-              <stop offset="1" stop-color="#565555" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
       </div>
     </div>
   );

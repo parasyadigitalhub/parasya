@@ -15,14 +15,14 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <nav className="relative top-0 left-0 w-full h-16 grad-neonred dark:grad-neonred pt-2">
-      <div className="flex top-0 h-16 w-full justify-between items-center px-4 2xl:pr-16 2xl:pl-8">
+    <nav className="relative top-0 left-0 w-full h-16 shadow-md ">
+      <div className="flex top-0 h-16 w-full justify-between items-center bg-white px-4 2xl:pr-16 2xl:pl-8 overflow-hidden">
         <div className="scale-[0.65]">
           <Link href="/">
             <Image src="/logo.png" width={205} height={75} alt="logo" />
           </Link>
         </div>
-        <div className="hidden sm:flex w-1/4 sm:mr-16  h-16 justify-between items-center font-nunito font-bold text-white text-lg">
+        <div className="hidden sm:flex w-1/4 sm:mr-16  h-16 justify-between items-center font-nunito font-bold text-[#1c1c1c] text-lg">
           <div className="whitespace-nowrap mx-3 hover:text-pred duration-300 ease-in-out inline-flex">
             <Link
               href="#services"

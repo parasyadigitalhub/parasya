@@ -7,7 +7,7 @@ import Social from "@/components/Social";
 export default function Home() {
   return (
     <div
-      className="snap-y snap-mandatory w-screen h-screen overflow-scroll"
+      className="snap-y snap-mandatory w-screen h-screen overflow-scroll overflow-x-hidden"
       style={{ scrollBehavior: "smooth" }}
     >
       <div className="snap-center">
@@ -15,9 +15,6 @@ export default function Home() {
       </div>
       <div className="snap-center" id="services">
         <Service />
-      </div>
-      <div className="snap-center" id="companyincorporation">
-        <Incorporate />
       </div>
       <div className="snap-center" id="legalsupport">
         <Legal />

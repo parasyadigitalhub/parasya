@@ -56,6 +56,10 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.pearlwhite {
+  background-color: #f8f6f0;
+}
+
 *::-webkit-scrollbar {
   display: none;
 }
