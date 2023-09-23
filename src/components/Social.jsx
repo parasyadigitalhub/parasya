@@ -8,8 +8,8 @@ const Social = () => {
         <div className="w-full h-full  pl-36 flex justif-center items-center">
           <Image src="/social.png" width={500} height={500} />
         </div>
-        <div className="w-full h-full flex flex-col justify-start items-start">
-          <p className="text-white text-6xl font-nunito font-bold mt-16 text-center">
+        <div className="w-full h-full flex flex-col justify-start items-start ">
+          <p className="text-white text-6xl font-nunito font-bold mt-16 text-center text-[#1c1c1c]">
             Socalize Your{" "}
             <span className="social-text-grad">
               Social <br /> Media

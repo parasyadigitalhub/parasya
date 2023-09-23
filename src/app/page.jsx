@@ -16,12 +16,6 @@ export default function Home() {
       <div className="snap-center" id="services">
         <Service />
       </div>
-      <div className="snap-center" id="legalsupport">
-        <Legal />
-      </div>
-      <div className="snap-center" id="digitalmarketing">
-        <Social />
-      </div>
     </div>
   );
 }

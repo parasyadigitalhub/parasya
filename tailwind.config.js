@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: ["bg-[#DCB280]", "bg-[#C1272D]", "bg-[#FC9925]"],
   theme: {
     extend: {
       backgroundImage: {
@@ -19,6 +20,9 @@ module.exports = {
       },
       colors: {
         pred: "#C1272D",
+      },
+      dropShadow: {
+        "3xl": "2px 4px 6px black",
       },
     },
   },
