@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Social = () => {
   return (
-    <div className="w-screen h-screen grad-neonred">
+    <div className="w-screen h-screen grad-redblack">
       <div className="flex justify-center items-center w-full h-full">
         <div className="w-full h-full  pl-36 flex justif-center items-center">
           <Image src="/social.png" width={500} height={500} />
