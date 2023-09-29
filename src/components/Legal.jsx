@@ -4,11 +4,14 @@ import LegalCard from "./LegalCard";
 
 const Legal = () => {
   return (
-    <div className="w-screen h-screen grad-neonred p-16 flex justify-around items-center">
+    <div
+      className="w-screen h-screen grad-neonred p-16 flex justify-around items-center"
+      style={{ backgroundImage: `url('/legal.jpg')` }}
+    >
       <div className="ml-16 w-1/2">
         <p className="font-nunito w-full text-5xl tracking-[0.064px] leading-[125%] text-white font-bold tracking-wide">
-          Comprehensive Legal <br />
-          Support for You
+          Comprehensive <span className="legal-text-grad">Legal</span> <br />
+          <span className="support-text-grad">Support</span> for You
         </p>
         <span className="text-white w-24 font-medium opacity-80 text-xl font-mulish break-all">
           We provide the best of the <br />

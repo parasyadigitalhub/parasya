@@ -56,6 +56,31 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.social-text-grad {
+  background: linear-gradient(
+    90deg,
+    #3da4bb 0%,
+    #51049f 34%,
+    #2d069a 56%,
+    #920c8c 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.legal-text-grad {
+  background: linear-gradient(86deg, #dcb280 71.3%, #8b5d27 97.66%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.support-text-grad {
+  background: linear-gradient(266deg, #b36100 63.37%, #dcb280 97.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .grad-redblack {
   background: linear-gradient(180deg, #1c1c1c 0%, #c1272d 99.99%, #fff 100%);
 }

@@ -1,8 +1,6 @@
-import Incorporate from "@/components/Incorporate";
 import Intro from "@/components/Intro";
-import Legal from "@/components/Legal";
+import Team from "@/components/Team";
 import Service from "@/components/Service";
-import Social from "@/components/Social";
 
 export default function Home() {
   return (
@@ -15,6 +13,9 @@ export default function Home() {
       </div>
       <div className="snap-center" id="services">
         <Service />
+      </div>
+      <div className="snap-center" id="team">
+        <Team />
       </div>
     </div>
   );
