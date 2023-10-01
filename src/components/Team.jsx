@@ -10,7 +10,7 @@ const Team = () => {
           Meet The <span className="text-pred font-bold">PARASYA</span> team{" "}
         </p>{" "}
         <div className="pt-16 mx-16">
-          <Carousel images={["/teamcover.png", "/cover1.png"]} />
+          <Carousel images={["/teamcover.png", "/cover1g.png"]} />
         </div>
       </div>
     </div>
