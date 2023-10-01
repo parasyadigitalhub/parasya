@@ -15,7 +15,7 @@ export default function Home() {
       <div className="snap-center" id="services">
         <Service />
       </div>
-      <div className="snap-center" id="team">
+      <div className="snap-center" id="vision">
         <Vision />
       </div>
       <div className="snap-center" id="team">
