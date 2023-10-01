@@ -85,6 +85,10 @@ body {
   background: linear-gradient(180deg, #1c1c1c 0%, #c1272d 99.99%, #fff 100%);
 }
 
+.grad-whitered {
+  background: linear-gradient(90deg, #c1272d -1.6%, #fff 49.73%, #c1272d 100%);
+}
+
 .pearlwhite {
   background-color: #f8f6f0;
 }

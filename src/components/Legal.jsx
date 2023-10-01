@@ -5,8 +5,12 @@ import LegalCard from "./LegalCard";
 const Legal = () => {
   return (
     <div
-      className="w-screen h-screen grad-neonred p-16 flex justify-around items-center"
-      style={{ backgroundImage: `url('/legal.jpg')` }}
+      className="w-screen h-screen p-16 flex justify-around items-center bg-no-repeat"
+      style={{
+        backgroundImage: `url('/legal.jpg')`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div className="ml-16 w-1/2">
         <p className="font-nunito w-full text-5xl tracking-[0.064px] leading-[125%] text-white font-bold tracking-wide">

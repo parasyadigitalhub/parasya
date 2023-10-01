@@ -31,7 +31,7 @@ const Team = () => {
             </div>
           </div>
 
-          <div>
+          <div className="relative">
             <Image src="/logo.png" layout="fill" objectFit="cover" />
           </div>
           {""}
