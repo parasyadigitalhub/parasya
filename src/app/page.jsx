@@ -3,6 +3,7 @@ import Vision from "@/components/Vision";
 import Service from "@/components/Service";
 
 import Team from "@/components/Team";
+import Testmonial from "@/components/Testmonial";
 export default function Home() {
   return (
     <div
@@ -15,11 +16,12 @@ export default function Home() {
       <div className="snap-center" id="services">
         <Service />
       </div>
-      <div className="snap-center" id="vision">
+      <div className="snap-start" id="vision">
         <Vision />
-      </div>
-      <div className="snap-center" id="team">
         <Team />
+      </div>
+      <div className="snap-center" id="testmonial">
+        <Testmonial />
       </div>
     </div>
   );

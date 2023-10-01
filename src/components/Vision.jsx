@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 const Vision = () => {
   return (
-    <div className="w-screen h-screen bg-[#F8F6F0] pt-32 overflow-scroll">
+    <div className="bg-[#F8F6F0] pt-32 overflow-scroll">
       <div className="flex w-full h-full justify-around items-center px-40">
-        <div className="flex justify-left w-full h-full items-center">
+        <div className="flex justify-left w-full h-full items-center justify-around">
           <div className="flex flex-col items-start justify-center w-1/2 font-raleway">
             <div>
               <p className="font-bold text-5xl font-raleway text-center pb-4">
@@ -31,7 +31,7 @@ const Vision = () => {
             </div>
           </div>
 
-          <div className="relative flex justify-center items-center w-96 h-96">
+          <div className="relative pb-16 w-96 h-96">
             <Image src="/logo.png" width={600} height={600} />
           </div>
           {""}
