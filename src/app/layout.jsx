@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Parasya",
   description: "Solution for your digital life",
+  favicon: "/logo.png",
 };
 
 export default function RootLayout({ children }) {

@@ -27,9 +27,9 @@ const AboutUs = () => {
       youtube: "",
     },
     {
-      img: "",
-      name: "rishaan",
-      role: "",
+      img: "/team/abhay.jpg",
+      name: "Abhay",
+      role: "web developer",
       instagram: "",
       facebook: "",
       youtube: "",

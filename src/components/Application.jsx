@@ -21,7 +21,7 @@ const Application = () => {
               implement it. Our goal is to build apps that keep users engaged.
             </span>
             <Link
-              href="#"
+              href="/contact"
               className="bg-[#D4464C] rounded-xl text-xl text-white font-semibold px-16 py-3 text-center hover:bg-white hover:text-pred duration-300 ease-in-out"
             >
               Explore Now

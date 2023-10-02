@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { IoMdArrowDropdown } from "react-icons/io";
+import DropDown from "./Dropdown";
 
 const Navbar = () => {
   let [open, setOpen] = useState(false);
@@ -23,20 +24,14 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="hidden sm:flex w-1/4 sm:mr-16  h-16 justify-between items-center font-nunito font-bold text-[#1c1c1c] text-lg">
-          <div className="whitespace-nowrap mx-3 hover:text-pred duration-300 ease-in-out inline-flex">
-            <Link
-              href="#services"
-              className="flex justify-between items-center"
-            >
-              Our Services
-              <IoMdArrowDropdown />
-            </Link>
+          <div className="whitespace-nowrap hover:text-pred duration-300 ease-in-out inline-flex">
+            <DropDown />
           </div>
           <div className="whitespace-nowrap mx-3 hover:text-pred duration-300 ease-in-out">
             <Link href="/aboutus">About Us</Link>
           </div>
           <div className="whitespace-nowrap mx-3 hover:text-pred duration-300 ease-in-out">
-            <Link href="#contact">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </div>
         </div>
         <div className="sm:hidden pl-24">

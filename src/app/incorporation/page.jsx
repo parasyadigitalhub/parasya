@@ -4,7 +4,10 @@ import Legal from "@/components/Legal";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen overflow-scroll  snap-mandatory">
+    <div
+      className="w-screen h-screen overflow-scroll  snap-mandatory overflow-y-scroll"
+      style={{ scrollBehavior: "smooth" }}
+    >
       <div className="snap-center" id="legalsupport">
         <Legal />
       </div>

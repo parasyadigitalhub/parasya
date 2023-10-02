@@ -30,6 +30,7 @@ const Incorporate = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
+      id="incorporation"
     >
       <div className="w-full text-center font-bold py-8 flex flex-col justify-center items-center mb-6 font-raleway">
         <span className="uppercase text-4xl font-bold text-white w-full pb-2">

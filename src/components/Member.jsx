@@ -2,7 +2,7 @@ const Member = ({ name, role, url }) => {
   return (
     <div className="w-[300px] h-[300px] border-2 border-pred border-b-8 gap-2 rounded-lg shadow-lg p-8 flex flex-col justify-center items-center">
       <div
-        className="rounded-[50%] w-32 h-32"
+        className="rounded-[50%] w-36 aspect-square"
         style={{
           background: `url(${url})`,
           backgroundSize: "cover",

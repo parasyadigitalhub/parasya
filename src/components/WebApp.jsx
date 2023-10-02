@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import bg from "../../public/webcover.png";
 
 const WebApp = () => {
   return (
@@ -8,10 +9,8 @@ const WebApp = () => {
         style={{
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-          background:
-            "linear-gradient(180deg, #070707 -14.5%, rgba(0, 0, 0, 0.38) 46.65%, rgba(27, 27, 27, 0.76) 112.29%), url('/webcover.png'), lightgray 50% / cover no-repeat;",
+          background: `linear-gradient(180deg, #070707 -14.5%, rgba(0, 0, 0, 0.38) 46.65%, rgba(27, 27, 27, 0.76) 112.29%), url(${bg.src}), lightgray 50% / cover no-repeat;`,
         }}
-        className=""
       >
         <div className="flex flex-col justify-center items-start font-nunito p-16">
           <span className="text-5xl text-white font-[900] leading-[150%]">
