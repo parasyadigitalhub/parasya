@@ -29,7 +29,7 @@ const Service = () => {
     },
   ];
   return (
-    <div className="w-screen h-screen bg-[#8E0000] font-raleway px-16 relative">
+    <div className="w-screen h-screen bg-[#8E0000] font-raleway px-16 relative z-0">
       <div className="w-full h-full top-0 right-0 z-0 absolute">
         <Image
           src="/serviceCover.png"

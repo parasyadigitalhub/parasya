@@ -7,7 +7,7 @@ const Legal = () => {
     <div
       className="w-screen h-screen p-16 flex justify-around items-center bg-no-repeat"
       style={{
-        backgroundImage: `url('/legal.jpg')`,
+        backgroundImage: `url('/gavel.png')`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
@@ -21,7 +21,7 @@ const Legal = () => {
           We provide the best of the <br />
           best people in the sector for <br /> Remarkable Results
         </span>
-        <div className="relative w-1/2 h-[450px] w-[480px]">
+        <div className="relative w-1/2 h-[450px] w-[500px]">
           <Image src="/justice.png" layout="fill" />
         </div>
       </div>

@@ -7,9 +7,9 @@ const Box = ({ href, name, namecolor, image, description }) => {
     <div
       className="h-96 w-80 bg-white rounded-lg text-center p-4 font-bold flex flex-col justify-around drop-shadow-3xl duration-300 ease-in-out hover:filter-none"
       style={{
-        background: `linear-gradient(180deg, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0.32) 42.57%, #000 100%), url('/${image}'), lightgray -3.94px -3.737px / 151.941% 103.759%;`,
+        background: `url('/${image}')`,
         backgroundSize: "cover",
-        "--url": `url('/${image}')`,
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="font-raleway text-center w-full flex justify-center items-center">

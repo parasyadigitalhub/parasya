@@ -1,6 +1,6 @@
 const Testmonial = () => {
   return (
-    <div className="w-screen h-screen bg-pearlwhite relative">
+    <div className="w-screen h-screen bg-pearlwhite relative z-0">
       <div className="text-5xl font-bold text-white top-0 font-raleway w-full text-center p-8 relative">
         Hear What Our Clients Have to Say
       </div>
@@ -22,7 +22,7 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">John Doe</span>
+              <span className="text-2xl font-bold font-raleway">Joseph</span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -62,7 +62,7 @@ const Testmonial = () => {
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
                 <svg
-                  class="w-4 h-4 text-gray-300 dark:text-gray-500"
+                  class="w-4 h-4 text-yellow-300 dark:text-yellow-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -75,13 +75,13 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Parasya has been a valuable partner in my business's online
+              journey. Their SEO strategies have improved our search engine
+              rankings, and their content marketing efforts have generated
+              quality leads. The only reason I'm not giving them a perfect score
+              is that I occasionally felt the need for more transparent
+              reporting on the progress of our campaigns. Nonetheless, their
+              expertise is undeniable, and I'm pleased with the overall results.
             </span>
           </div>
         </div>
@@ -102,7 +102,9 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">John Doe</span>
+              <span className="text-2xl font-bold font-raleway">
+                Sarah John
+              </span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -155,13 +157,13 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I've been working with Parasya for the past year, and I couldn't
+              be happier with their digital marketing services. Their team is
+              incredibly knowledgeable and has helped boost our online presence
+              significantly. Our website traffic has increased, and our social
+              media engagement is through the roof. They are responsive,
+              creative, and results-driven. I highly recommend Parasya for
+              anyone looking to elevate their digital marketing game!
             </span>
           </div>
         </div>
@@ -182,7 +184,7 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">John Doe</span>
+              <span className="text-2xl font-bold font-raleway">Jennifer</span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -213,7 +215,7 @@ const Testmonial = () => {
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
                 <svg
-                  class="w-4 h-4 text-yellow-300"
+                  class="w-4 h-4 text-gray-300"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -235,13 +237,13 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Parasya has been a game-changer for our social media marketing
+              efforts. Their creative team consistently delivers eye-catching
+              content, and their community management skills have helped us
+              connect with our audience on a deeper level. What sets them apart
+              is their ability to adapt to the ever-changing social media
+              landscape, ensuring our campaigns stay relevant. Highly
+              recommended for businesses looking to dominate social media!
             </span>
           </div>
         </div>
@@ -262,7 +264,7 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">John Doe</span>
+              <span className="text-2xl font-bold font-raleway">Abhijith</span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -302,7 +304,7 @@ const Testmonial = () => {
                   <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                 </svg>
                 <svg
-                  class="w-4 h-4 text-gray-300 dark:text-gray-500"
+                  class="w-4 h-4 text-yellow-300 dark:text-gray-500"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -315,13 +317,13 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              As a tech startup, we needed a digital marketing partner who
+              understood our niche and could help us stand out. Parasya exceeded
+              our expectations. Their PPC campaigns have driven targeted traffic
+              to our site, and their email marketing strategies have helped us
+              nurture leads effectively. The team at Parasya is not just skilled
+              but genuinely passionate about what they do. They've played a
+              pivotal role in our growth.
             </span>
           </div>
         </div>
