@@ -4,8 +4,8 @@ const AboutUs = () => {
   let members = [
     {
       img: "'/team/rishaan.jpg'",
-      name: "Rishaan",
-      role: "founder",
+      name: "Rishan",
+      role: "Founder",
       instagram: "",
       facebook: "",
       youtube: "",
@@ -13,7 +13,7 @@ const AboutUs = () => {
     {
       img: "/team/arjun.jpg",
       name: "Arjun",
-      role: "Founder",
+      role: " Co Founder",
       instagram: "",
       facebook: "",
       youtube: "",
@@ -21,7 +21,7 @@ const AboutUs = () => {
     {
       img: "/team/Prajyu.jpg",
       name: "Prajyu",
-      role: "web developer",
+      role: " Senior web developer",
       instagram: "",
       facebook: "",
       youtube: "",
@@ -29,15 +29,47 @@ const AboutUs = () => {
     {
       img: "/team/abhay.jpg",
       name: "Abhay",
-      role: "web developer",
+      role: " Senior App developer",
       instagram: "",
       facebook: "",
       youtube: "",
     },
     {
-      img: "",
-      name: "rishaan",
-      role: "",
+      img: "/team/sheyan.jpg",
+      name: "Sheyan",
+      role: "Marketing Head",
+      instagram: "",
+      facebook: "",
+      youtube: "",
+    },
+    {
+      img: "/team/soorya.jpg",
+      name: "Soorya",
+      role: "Media Head",
+      instagram: "",
+      facebook: "",
+      youtube: "",
+    },
+    {
+      img: "/team/abhay.jpg",
+      name: "Alan T Monachan",
+      role: "Socia Media Head",
+      instagram: "",
+      facebook: "",
+      youtube: "",
+    },
+    {
+      img: "/team/krishna.jpg",
+      name: "Krishna",
+      role: "Content creater",
+      instagram: "",
+      facebook: "",
+      youtube: "",
+    },
+    {
+      img: "/team/shreya.jpg",
+      name: "Shreya",
+      role: " SEO specilist",
       instagram: "",
       facebook: "",
       youtube: "",
@@ -45,14 +77,14 @@ const AboutUs = () => {
   ];
   return (
     <div className="relative w-full h-full bg-pearlwhite">
-      <div className=" top-0 left-0  w-full h-1/2 flex justify-between items-center">
-        <div className="relative text-pred text-6xl font-raleway font-bold p-4 text-center w-1/2">
+      <div className=" top-0 left-0  w-full h-1/2 flex flex-col lg:flex-row justify-between items-center">
+        <div className="relative text-pred text-4xl lg:text-6xl font-raleway font-bold p-4 text-center w-full lg:w-1/2">
           <p className="text-center leading-[150%] drop-shadow-xl">
             We Are The <br />{" "}
             <span className="about-text-grad">Dream Makers</span>
           </p>
         </div>
-        <div className="relative h-full w-1/2 drop-shadow-3xl hover:filter-none duration-300 ease-in-out rounded-lg  mt-16 mx-8">
+        <div className="relative h-full w-3/4 lg:w-1/2 drop-shadow-3xl hover:filter-none duration-300 ease-in-out rounded-lg mt-4  lg:mt-16 mx-8">
           <Image
             src="/team/prajyuwork.jpg"
             layout="fill"
@@ -61,14 +93,14 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="relative p-4 pt-24">
+      <div className="relative p-4 pt-16 lg:pt-24 ">
         <div className="w-full text-center">
-          <span className="text-5xl border-b border-black  font-bold font-raleway">
+          <span className="text-3xl lg:text-5xl border-b border-black leading-[150%] font-bold font-raleway">
             Why Partner With Us
           </span>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 p-16 gap-6 place-items-center w-full">
-          <div className="w-[600px] h-[150px] flex justify-around items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:p-16 gap-0 lg:gap-6 place-items-center w-full px-8">
+          <div className="w-[600px] h-[150px] flex justify-around items-center scale-[0.6] lg:scale-[1] ">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +187,7 @@ const AboutUs = () => {
               </span>
             </div>
           </div>
-          <div className="w-[600px] h-[150px] flex justify-around items-center">
+          <div className="w-[600px] h-[150px] flex justify-around items-center scale-[0.6] lg:scale-[1] ">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -215,7 +247,7 @@ const AboutUs = () => {
               </span>
             </div>
           </div>
-          <div className="w-[600px] h-[150px] flex justify-around items-center">
+          <div className="w-[600px] h-[150px] flex justify-around items-center scale-[0.6] lg:scale-[1] ">
             <div>
               <svg
                 width="150"
@@ -252,7 +284,7 @@ const AboutUs = () => {
               </span>
             </div>
           </div>
-          <div className="w-[600px] h-[150px] flex justify-around items-center">
+          <div className="w-[600px] h-[150px] flex justify-around items-center scale-[0.6] lg:scale-[1] ">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

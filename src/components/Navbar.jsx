@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="sm:hidden pl-24">
-          <AiOutlineMenu size={25} onClick={handleNav} color="white" />
+          <AiOutlineMenu size={25} onClick={handleNav} color="pred" />
         </div>
         <div
           className={
@@ -69,7 +69,7 @@ const Navbar = () => {
                 setOpen(false);
               }}
             >
-              <Link href="#aboutus" className="text-2xl">
+              <Link href="/aboutus" className="text-2xl">
                 About Us
               </Link>
             </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
               }}
             >
               <Link
-                href="#services"
+                href="/services"
                 className="text-2xl flex justify-around items-center"
               >
                 Services
@@ -93,7 +93,7 @@ const Navbar = () => {
                 setOpen(false);
               }}
             >
-              <Link href="#contact" className="text-2xl">
+              <Link href="/contact" className="text-2xl">
                 Contact
               </Link>
             </div>

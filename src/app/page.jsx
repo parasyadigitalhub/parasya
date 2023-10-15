@@ -1,6 +1,7 @@
 import Intro from "@/components/Intro";
 import Vision from "@/components/Vision";
 import Service from "@/components/Service";
+import Footer from "@/components/Footer";
 
 import Team from "@/components/Team";
 import Testmonial from "@/components/Testmonial";
@@ -13,7 +14,7 @@ export default function Home() {
       <div className="snap-center">
         <Intro />
       </div>
-      <div className="snap-center" id="services">
+      <div className="snap-start" id="services">
         <Service />
       </div>
       <div className="snap-start" id="vision">

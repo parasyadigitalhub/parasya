@@ -29,7 +29,7 @@ const Service = () => {
     },
   ];
   return (
-    <div className="w-screen h-screen bg-[#8E0000] font-raleway px-16 relative z-0">
+    <div className="w-screen h-[auto] lg::h-screen bg-[#8E0000] font-raleway px-16 relative z-0">
       <div className="w-full h-full top-0 right-0 z-0 absolute">
         <Image
           src="/serviceCover.png"
@@ -38,14 +38,14 @@ const Service = () => {
           className="float-right relative"
         />
       </div>
-      <div className="flex flex-col jusify-center items-center z-10">
+      <div className="flex flex-col jusify-center items-center z-10 w-full">
         <div className="w-full flex justify-start items-center ">
-          <span className=" relative text-white font-raleway leading-[150%] text-[#1c1c1c] text-4xl pt-8 font-bold text-left">
+          <span className=" relative text-white font-raleway leading-[150%] text-[#1c1c1c] text-xl text-center lg:text-left leading-[150%] lg:text-4xl pt-8 font-bold whitespace-nowrap">
             Intergrated Buisness Solutions <br /> for Growth and Success
           </span>
         </div>
         <div className="w-full text-left z-10">
-          <span className="text-white text-base font-light font-raleway mt-4 lg:w-[1057px] tracking-tight text-left block">
+          <span className="text-white text-xs md:text-base font-light font-raleway mt-4 lg:w-[1057px] tracking-tight text-left block">
             At Parasya, we understand that every business is unique. Our
             tailored solutions encompass a wide spectrum of services, from
             strategic planning and financial management to cutting-edge
@@ -55,7 +55,7 @@ const Service = () => {
             mitigate risks, and create a roadmap to achieve your goals.
           </span>
         </div>
-        <div className="z-10 w-full h-full px-4">
+        <div className="z-10 w-full h-full w-full flex justify-center items-center pb-8">
           <BoxList options={options} />
         </div>
       </div>

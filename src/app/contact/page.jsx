@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="bg-pearlwhite p-16 flex jusisy-center items-center relative">
+    <div className="bg-pearlwhite lg:p-16 flex justify-center items-center relative">
       <div
         className="absolute w-full h-full bg-pearlwhite opacity-80 top-0 left-0 z-0"
         style={{
@@ -11,12 +11,12 @@ const Contact = () => {
       >
         {" "}
       </div>
-      <div className="w-full h-full z-0  border-2 border-pred rounded-lg p-4 bg-[#F5F5F5]">
+      <div className="w-full h-full z-0 border-0 rounded-none lg:border-2 border-pred lg:rounded-lg p-4 bg-[#F5F5F5]">
         <div className="w-full text-center  font-raleway font-bold py-16">
-          <p className="text-5xl">
+          <p className=" text-2xl lg:text-5xl">
             <span className="text-pred">Connect</span> With Us
           </p>
-          <span className="text-3xl block p-4 font-medium leading-[150%]">
+          <span className="text-sm lg:text-3xl block p-4 font-medium leading-[150%]">
             "Your success is important to us and we are eager to address any
             inquiries you may have. <br /> We would be delighted to assist you."
           </span>
@@ -29,13 +29,13 @@ const Contact = () => {
                 type="name"
                 name="floating_name"
                 id="floating_name"
-                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none focus:outline-none focus:ring-0 focus:border-pred peer"
                 placeholder=" "
                 required
               />
               <label
                 for="floating_name"
-                className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Name
               </label>
@@ -46,13 +46,13 @@ const Contact = () => {
                 type="tel"
                 name="floating_phone"
                 id="floating_phone"
-                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none focus:outline-none focus:ring-0 focus:border-pred peer"
                 placeholder=" "
                 required
               />
               <label
                 for="floating_phone"
-                className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Mobile Number
               </label>
@@ -63,13 +63,13 @@ const Contact = () => {
               type="email"
               name="floating_email"
               id="floating_email"
-              className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+              className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none focus:outline-none focus:ring-0 focus:border-pred peer"
               placeholder=" "
               required
             />
             <label
               for="floating_email"
-              className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Email address
             </label>
@@ -79,7 +79,7 @@ const Contact = () => {
             <div class="relative z-0 w-full mb-6 group">
               <select
                 id="countries"
-                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred pr-8 cursor-pointer dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred pr-8 cursor-pointer focus:outline-none focus:ring-0 focus:border-pred peer"
               >
                 <option selected hidden>
                   Organization Type
@@ -97,13 +97,13 @@ const Contact = () => {
                 type="company"
                 name="floating_company"
                 id="floating_company"
-                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none focus:outline-none focus:ring-0 focus:border-pred peer"
                 placeholder=" "
                 required
               />
               <label
                 for="floating_company"
-                className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
                 Company Name
               </label>
@@ -111,7 +111,7 @@ const Contact = () => {
             <div class="relative z-0 w-full mb-6 group">
               <select
                 id="countries"
-                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred pr-8 cursor-pointer dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+                className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred pr-8 cursor-pointer focus:outline-none focus:ring-0 focus:border-pred peer"
               >
                 <option selected hidden className="opacity-8">
                   Service Required
@@ -129,14 +129,14 @@ const Contact = () => {
               type="description"
               name="floating_description"
               id="floating_description"
-              className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-pred peer"
+              className="block py-4 px-4 w-full text-md shadow-pred border-b-2 shadow-sm focus:shadow-none bg-transparent duration-200 ease-in-out rounded-lg focus:rounded-none border-0 focus:border-0 focus:border-b-2 border-pred appearance-none focus:outline-none focus:ring-0 focus:border-pred peer"
               placeholder=" "
               required
               rows={5}
             />
             <label
               for="floating_description"
-              className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+              className="peer-focus:font-medium px-4 text-center absolute text-md text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-pred peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
             >
               Project Specification
             </label>
@@ -145,7 +145,7 @@ const Contact = () => {
             {" "}
             <button
               type="submit"
-              class="text-white bg-pred hover:bg-red-800 duration-300 ease-in-out focus:ring-4 focus:outline-none focus:ring-red-300 font-raleawy text-2xl font-medium rounded-lg text-sm w-full sm:w-auto px-32 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="text-white bg-pred hover:bg-red-800 duration-300 ease-in-out focus:ring-4 focus:outline-none focus:ring-red-300 font-raleawy text-2xl font-medium rounded-lg text-sm w-full sm:w-auto px-32 py-3 text-center"
             >
               Connect
             </button>

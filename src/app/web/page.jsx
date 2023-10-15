@@ -7,7 +7,7 @@ import Process from "@/components/Process";
 const Web = () => {
   return (
     <div
-      className="w-screen h-screen overflow-y-scroll"
+      className="w-screen h-screen overflow-y-scroll overflow-x-hidden"
       style={{ scrollBehavior: "smooth" }}
     >
       <WebApp />

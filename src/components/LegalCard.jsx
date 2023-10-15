@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LegalCard = () => {
   return (
-    <div className="flex justify-around items-end w-full h-full">
+    <div className="flex justify-around items-end w-full h-full scale-[0.8] lg:scale-[1]">
       <div className="bg-[#DCB280] rounded-xl w-[428px] h-[543px] p-6">
         <div className="flex justify-around items-center w-full h-36">
           <div className="bg-white rounded-[50%] w-36 h-36 mt-4 relative">

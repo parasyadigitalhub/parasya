@@ -33,54 +33,54 @@ const Incorporate = () => {
       id="incorporation"
     >
       <div className="w-full text-center font-bold py-8 flex flex-col justify-center items-center mb-6 font-raleway">
-        <span className="uppercase text-4xl font-bold text-white w-full pb-2">
+        <span className="uppercase px-2 text-3xl lg:text-4xl font-bold text-white w-full pb-1 md:pb-2">
           incorporate your company
         </span>
-        <span className="text-white font-bold">
+        <span className="text-white font-bold opacity-90">
           From anywhere. At a single click
         </span>
       </div>
 
-      <div className="flex flex-col-reverse justify-center items-center w-full h-1/2 px-16">
-        <div className="h-full mb-6 lg:mb-16 bg-white w-full h-[90%] rounded-xl border-2 border-pred px-16">
+      <div className="flex flex-col-reverse justify-center items-center w-full h-1/2 lg:px-16 px-3">
+        <div className="h-full mb-6 lg:mb-16 bg-white w-full h-[90%] rounded-xl border-2 border-pred lg:px-16 px-3">
           <div className="w-full text-left mt-2  ">
             <span className="text-black border-b-2 border-pred text-4xl font-bold pt-4">
               Get More Quotes
             </span>
             <div className="my-6 flex flex-col justify-around items-center">
-              <div className="flex justify-around items-center w-full gap-4">
+              <div className="flex flex-col lg:flex-row justify-around items-center w-full lg:gap-4">
                 <input
                   type="text"
                   id="base-input"
                   placeholder="Your Full Name"
-                  className="bg-gray-50 ring-0 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-1/2 p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
+                  className="bg-gray-50 w-full ring-0 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-1/2 p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
                 />
                 <input
                   type="text"
                   id="base-input"
                   placeholder="E-mail"
-                  className="bg-gray-50 ring-0 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-1/2 p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
+                  className="bg-gray-50 w-full ring-0 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-1/2 p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
                 />
               </div>
 
-              <div className="flex justify-around items-center w-full gap-4">
+              <div className="flex flex-col lg:flex-row justify-around items-center w-full lg:gap-4">
                 <input
                   type="text"
                   id="base-input"
                   placeholder="Mobile Number"
-                  className="bg-gray-50 ring-0 flex-1 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-full p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
+                  className="bg-gray-50 w-full ring-0 flex-1 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-full p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
                 />
                 <input
                   type="text"
                   id="base-input"
                   placeholder="City"
-                  className="bg-gray-50 ring-0 flex-1 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-full p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
+                  className="bg-gray-50 w-full ring-0 flex-1 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block w-full p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
                 />
               </div>
-              <div className="flex justify-between items-center w-full gap-4">
+              <div className="flex flex-col lg:flex-row justify-between items-center w-full lg:gap-4">
                 <select
                   id="countries"
-                  className="bg-gray-50 ring-0 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block font-semibold  p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
+                  className="bg-gray-50 w-full ring-0 outline-none border border-[#727272] placeholder-[#A5A5A5] text-sm rounded-xl block font-semibold  p-2.5 duration-300 ease-in-out hover:border-pred focus:border-pred mb-2"
                 >
                   <option selected hidden>
                     Select what you are looking for
@@ -99,10 +99,10 @@ const Incorporate = () => {
             </div>
           </div>
         </div>
-        <div className="h-1/2 w-full px-16 py-4 my-8">
+        <div className="h-1/2 w-full lg:px-16 py-4 my-8 px-3">
           <Instruction />
         </div>
-        <div className="w-1/2 flex flex-col justify-center items-center lg:scale-[0.8] scale-[0.7] font-raleway mb-4 px-16">
+        <div className="w-1/2 flex flex-start flex-col  items-center lg:scale-[0.8] scale-[0.7] font-raleway mb-4 lg:px-16 px-3">
           <div>
             <IncorporateList details={details} />
           </div>

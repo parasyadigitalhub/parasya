@@ -25,7 +25,7 @@ const Gallery = ({ galleryTab }) => {
 
   return (
     <div className="w-full">
-      <div className=" ">
+      <div className=" scale-[0.9] lg:scale-[1]">
         <div className="flex flex-col md:grid md:grid-cols-1 h-full gap-0 flex-wrap mx-2 md:mx-0">
           {galleryTab.map((x, index) => {
             return (
@@ -33,7 +33,10 @@ const Gallery = ({ galleryTab }) => {
                 <div className="group h-full">
                   <div
                     className="bg-cover bg-center h-full w-full bg-no-repeat rounded-lg"
-                    style={{ backgroundImage: `url("${x.imageUrl}")` }}
+                    style={{
+                      backgroundImage: `url("${x.imageUrl}")`,
+                      backgroundSize: "fit",
+                    }}
                   >
                     <div className="text-white absolute bottom-0 left-2 z-10 text-center w-full p-4 font-raleway">
                       <div className="font-black text-3xl font-raleway">

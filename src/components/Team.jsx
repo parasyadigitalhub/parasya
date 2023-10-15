@@ -5,8 +5,7 @@ const Team = () => {
     {
       imageUrl: "/team/team.jpg",
       type: "We Are The Dream Makers",
-      title:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      title: "",
     },
   ];
   return (
@@ -14,7 +13,7 @@ const Team = () => {
       <div className="w-full text-center text-4xl font-bold font-raleway">
         Meet the <span className="text-pred">PARASYA</span> Team
       </div>
-      <div className="p-16">
+      <div className="lg:p-16 h-full w-full">
         <Gallery galleryTab={galleryTab} />
       </div>
     </div>

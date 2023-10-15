@@ -5,11 +5,11 @@ const Website = () => {
   return (
     <div className="py-8" id="website">
       <div className="p-10 flex flex-col justify-center items-center">
-        <h1 className="font-nunito text-[#1c1c1c] text-4xl font-black text-center">
+        <h1 className="font-nunito text-[#1c1c1c] text-3xl lg:text-4xl font-black text-center">
           Website Development
         </h1>
-        <div className="bg-black w-[1200px] h-96 mt-16 relative">
-          <div className="absolute top-0 left-0 p-16 flex flex-col justify-around items-start h-full">
+        <div className="bg-black w-screen lg:w-[1200px] h-96 mt-16 relative">
+          <div className="relative w-full lg:absolute top-0 left-0 lg:p-16 flex flex-col justify-around items-start h-full lg:scale-[1] scale-[0.9]">
             <p className="text-white text-xl font-bold font-nunito w-full">
               Get Your Full fledged website starting from <br />@ Rs 9999/-
             </p>
@@ -31,12 +31,12 @@ const Website = () => {
             src="/websitecover.png"
             width={550}
             height={400}
-            className="h-full absolute right-0"
+            className="h-full absolute right-0 hidden lg:block"
           />
         </div>
       </div>
-      <div className="px-10 py-2 flex flex-col md:flex-row justify-around items-center">
-        <div className="w-[224px] h-[189px] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
+      <div className="px-4 lg:px-8 py-2 grid md:grid-cols-5 gap-6 place-items-center w-full">
+        <div className="w-[224px] h-[189px] scale-[0.8] lg:scale-[1] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"
@@ -55,7 +55,7 @@ const Website = () => {
             Static Website
           </span>
         </div>
-        <div className="w-[224px] h-[189px] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
+        <div className="w-[224px] h-[189px] scale-[0.8] lg:scale-[1] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="81"
@@ -86,7 +86,7 @@ const Website = () => {
             Dynamic Website
           </span>
         </div>
-        <div className="w-[224px] h-[189px] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
+        <div className="w-[224px] h-[189px] scale-[0.8] lg:scale-[1] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="71"
@@ -114,7 +114,7 @@ const Website = () => {
             Co-operate Website
           </span>
         </div>
-        <div className="w-[224px] h-[189px] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
+        <div className="w-[224px] h-[189px] scale-[0.8] lg:scale-[1] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="67"
@@ -146,7 +146,7 @@ const Website = () => {
             E-commerce Website
           </span>
         </div>
-        <div className="w-[224px] h-[189px] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
+        <div className="w-[224px] h-[189px] scale-[0.8] lg:scale-[1] bg-pearlwhite flex flex-col justify-center items-center shadow-2xl rounded-lg border-2 border-pred border-b-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="76"

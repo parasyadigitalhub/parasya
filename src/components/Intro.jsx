@@ -7,10 +7,10 @@ const Intro = () => {
   return (
     <div className="h-screen w-screen bg-pearlwhite relative">
       <div className="flex flex-col-reverse md:flex-row w-full h-full justify-around items-center">
-        <div className="flex flex-col justify-center items-center h-screen w-1/2 text-gray-200 space-y-[40px]">
-          <div className="lg:text-6xl text-3xl font-bold font-raleway w-full text-[#1c1c1c] text-center sm:text-center">
-            <div className="">
-              <p className="text-xl md:text-3xl text-center ml-8 xl:text-5xl 2xl:text-6xl ">
+        <div className="flex flex-col justify-center items-center h-screen flex-1 text-gray-200 space-y-[40px]">
+          <div className="lg:text-6xl text-3xl font-bold font-raleway w-full text-[#1c1c1c] sm:text-center">
+            <div className="flex w-full justify-center items-center">
+              <p className="text-2xl md:text-5xl text-center xl:text-5xl 2xl:text-6xl ">
                 Unlocking&nbsp;
                 <span className="text-grad">Success</span>
                 <br />
@@ -19,25 +19,28 @@ const Intro = () => {
               </p>
             </div>
           </div>
-          <div className="font-mulish text-left ml-4 w-3/5 text-md md:text-xl leading-normal tracking-tighter text-wrap  text-[#1c1c1c]">
-            Your One-Stop Solution for Incorporation, Legal Support, Digital
-            Marketing, and Cutting-Edge App & Web Development Services
+          <div className="flex w-full justify-center items-center">
+            <div className="font-mulish text-center md:text-center lg:text-left w-3/5 text-md md:text-xl leading-normal tracking-tighter text-wrap  text-[#1c1c1c]">
+              Your One-Stop Solution for Incorporation, Legal Support, Digital
+              Marketing, and Cutting-Edge App & Web Development Services
+            </div>
           </div>
+
           <div className="text-left cursor-pointer w-full flex justify-center items-center">
             <Link
               href="#services"
-              className="bg-[#D4464C] ml-4 text-lg shadow-2xl z-10 rounded-md text-white font-medium px-10 py-4  text-center border border-transparent hover:border-pred hover:bg-white hover:text-[#1c1c1c] duration-300 ease-in-out"
+              className="bg-[#D4464C] ml-4 text-xl shadow-2xl z-10 rounded-md text-white font-medium px-10 md:px-24 py-4  text-center border border-transparent hover:border-pred hover:bg-white hover:text-[#1c1c1c] duration-300 ease-in-out"
             >
-              Explore Now
+              <span className="whitespace-nobreak">Explore Now</span>
             </Link>
           </div>
-          <div className="flex justify-start items-center w-1/2 h-[auto] pt-16">
-            <div className="flex flex-col items-start justify-end w-full h-full">
-              <span className="text-2xl text-black font-bold font-raleway whitespace-nowrap">
+          <div className="flex justify-center items-center w-full h-[auto] pt-16 px-2">
+            <div className="flex flex-col items-center justify-center w-full h-full">
+              <span className="text-xl md:text-2xl text-black font-bold lg:text-left font-raleway whitespace-nowrap">
                 Follow Us On
               </span>
               <div className="flex justify-between w-80 py-4 items-center ">
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/parasya-in-bb406928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <svg
                     width="48"
                     height="48"
@@ -57,7 +60,7 @@ const Intro = () => {
                     />
                   </svg>
                 </Link>
-                <Link href="#">
+                <Link href="https://www.youtube.com/@parasyadigitalacademy">
                   <svg
                     width="48"
                     height="48"
@@ -79,7 +82,7 @@ const Intro = () => {
                     />
                   </svg>
                 </Link>
-                <Link href="#">
+                <Link href="https://wa.me/message/WYHC7UEJBHHUB1">
                   <svg
                     width="48"
                     height="48"
@@ -99,7 +102,7 @@ const Intro = () => {
                     />
                   </svg>
                 </Link>
-                <Link href="#">
+                <Link href="https://instagram.com/parasya.in?igshid=MzRlODBiNWFlZA==">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="48"
@@ -154,7 +157,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex justify-center items-center hidden lg:flex w-full h-full">
+        <div className="flex-1 justify-center items-center  w-full h-full hidden lg:flex">
           <div className="relative w-full h-full flex items-end ">
             <Image
               src="/cover1.png"
