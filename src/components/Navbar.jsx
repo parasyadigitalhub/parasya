@@ -38,13 +38,14 @@ const Navbar = () => {
           <AiOutlineMenu size={25} onClick={handleNav} color="pred" />
         </div>
         <div
+          style={{ zIndex: 80 }}
           className={
             open
-              ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-pred p-10 ease-in duration-500 z-10"
-              : "fixed left-[-100%] top-0 h-screen p-10 ease-out duration-500 z-10"
+              ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-pred p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0 h-screen p-10 ease-out duration-500"
           }
         >
-          <div className="sm:hidden cursor-pointer float-right w-full cursor-pointer">
+          <div className="sm:hidden cursor-pointer float-right w-full">
             <AiOutlineClose
               size={25}
               onClick={handleNav}
@@ -54,7 +55,7 @@ const Navbar = () => {
           </div>
           <div className="flex-col h-full mt-24 text-left">
             <div
-              className="whitespace-nowrap mx-3 text-white duration-300 my-12 ease-in-out p-3 border-b-2 border-transparent p-4 hover:border-white"
+              className="whitespace-nowrap mx-3 text-white duration-300 my-12 ease-in-out border-b-2 border-transparent p-4 hover:border-white"
               onClick={() => {
                 setOpen(false);
               }}

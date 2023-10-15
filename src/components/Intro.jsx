@@ -31,7 +31,7 @@ const Intro = () => {
               href="#services"
               className="bg-[#D4464C] ml-4 text-xl shadow-2xl z-10 rounded-md text-white font-medium px-10 md:px-24 py-4  text-center border border-transparent hover:border-pred hover:bg-white hover:text-[#1c1c1c] duration-300 ease-in-out"
             >
-              <span className="whitespace-nobreak">Explore Now</span>
+              <span className="whitespace-nobreak z-[0]">Explore Now</span>
             </Link>
           </div>
           <div className="flex justify-center items-center w-full h-[auto] pt-16 px-2">
