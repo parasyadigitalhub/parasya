@@ -51,8 +51,8 @@ const AboutUs = () => {
       youtube: "",
     },
     {
-      img: "/team/abhay.jpg",
-      name: "Alan T Monachan",
+      img: "/team/shadil.jpg",
+      name: "Shadil",
       role: "Socia Media Head",
       instagram: "",
       facebook: "",
