@@ -13,8 +13,8 @@ const Team = () => {
       <div className="w-full text-center text-4xl font-bold font-raleway">
         Meet the <span className="text-pred">PARASYA</span> Team
       </div>
-      <div className="lg:p-16 h-full w-full">
-        <Gallery galleryTab={galleryTab} />
+      <div className="h-auto max-w-full">
+        <img src="/team/team.jpg" alt="" />
       </div>
     </div>
   );

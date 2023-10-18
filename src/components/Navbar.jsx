@@ -16,7 +16,7 @@ const Navbar = () => {
     setOpen(!open);
   };
   return (
-    <nav className="relative top-0 left-0 w-full h-16 shadow-md ">
+    <nav className="relative top-0 left-0 w-full h-16 shadow-md  ">
       <div className="flex top-0 h-16 w-full justify-between items-center bg-white px-4 2xl:pr-16 2xl:pl-8 overflow-hidden">
         <div className="scale-[0.65]">
           <Link href="/">

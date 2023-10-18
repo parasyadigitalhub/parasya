@@ -1,7 +1,6 @@
 import Intro from "@/components/Intro";
 import Vision from "@/components/Vision";
 import Service from "@/components/Service";
-import Footer from "@/components/Footer";
 
 import Team from "@/components/Team";
 import Testmonial from "@/components/Testmonial";
