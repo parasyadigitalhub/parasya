@@ -50,7 +50,7 @@ const SocialCard = ({ title, description, price, features }) => {
             </ul>
           </div>
           <div className="w-full w-full flex justify-center items-center mb-10">
-            <Link href="#" className="">
+            <Link href="https://wa.me/message/WYHC7UEJBHHUB1" className="">
               <div className=" h-10 bg-pred rounded-lg text-white font-mulish font-bold flex justify-center items-center px-4 duration-300 ease-in-out hover:bg-transparent hover:text-pred">
                 Subscribe Now
               </div>
