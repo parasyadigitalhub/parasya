@@ -8,7 +8,7 @@ const Fixedicon = () => {
       <Link href="https://wa.me/message/WYHC7UEJBHHUB1">
         <BsWhatsapp
           size={45}
-          className=" fixed top-56 right-10 text-green-700 z-20"
+          className=" fixed bottom-16 right-7 text-green-700 z-20"
         />
       </Link>
     </div>
