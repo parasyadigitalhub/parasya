@@ -5,11 +5,11 @@ import Link from "next/link";
 
 const Intro = () => {
   return (
-    <div className="h-screen w-screen bg-pearlwhite relative">
+    <div className="h-screen w-screen bg-pearlwhite relative ">
       <div className="flex flex-col-reverse md:flex-row w-full h-full justify-around items-center">
         <div className="flex flex-col justify-center items-center h-screen flex-1 text-gray-200 space-y-[40px]">
           <div className="lg:text-6xl text-3xl font-bold font-raleway w-full text-[#1c1c1c] sm:text-center">
-            <div className="flex w-full justify-center items-center">
+            <div className="flex w-full justify-center items-center md:flex-col">
               <p className="text-2xl md:text-5xl text-center xl:text-5xl 2xl:text-6xl ">
                 Unlocking&nbsp;
                 <span className="text-grad">Success</span>
@@ -157,13 +157,13 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 justify-center items-center  w-full h-full hidden lg:flex">
+        <div className="flex-1 justify-center items-center  w-full h-full  lg:flex md-flex-col">
           <div className="relative w-full h-full flex items-end ">
             <Image
               src="/cover1.png"
               layout="fill"
               objectFit="fill"
-              className="bg-no-repeat scale-[0.8] mt-24"
+              className="bg-no-repeat scale-[0.8] mt-24 h-auto max-w-full"
             />
           </div>
         </div>
