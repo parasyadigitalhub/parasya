@@ -157,13 +157,13 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 justify-center items-center  w-full h-full  lg:flex md-flex-col">
+        <div className="flex-1 justify-center items-center  w-full h-full hidden lg:flex">
           <div className="relative w-full h-full flex items-end ">
             <Image
               src="/cover1.png"
               layout="fill"
               objectFit="fill"
-              className="bg-no-repeat scale-[0.8] mt-24 h-auto max-w-full"
+              className="bg-no-repeat scale-[0.8] mt-24 "
             />
           </div>
         </div>
