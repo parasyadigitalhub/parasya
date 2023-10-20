@@ -4,7 +4,7 @@ const Testmonial = () => {
       <div className="text-5xl font-bold text-white top-0 font-raleway w-full text-center p-8 relative z-10">
         Hear What Our Clients Have to Say
       </div>
-      <div className="grid overflow-y-scroll h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-6 justify-center items-center place-items-center lg:p-10 relative z-10">
+      <div className="grid overflow-y h-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-6 justify-center items-center place-items-center lg:p-10 relative z-10">
         <div className="w-[330px] h-[450px] bg-white rounded-lg relative shadow-lg border-2 border-pred border-b-8 p-8 flex justify-start flex-col items-start">
           <div className="flex justify-center items-center">
             <div>

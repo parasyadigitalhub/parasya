@@ -4,6 +4,7 @@ import Service from "@/components/Service";
 
 import Team from "@/components/Team";
 import Testmonial from "@/components/Testmonial";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div

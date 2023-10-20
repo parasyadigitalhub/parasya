@@ -2,13 +2,6 @@ import React from "react";
 
 import Image from "next/image";
 import Link from "next/link";
-import {
-  BsInstagram,
-  BsFacebook,
-  BsWhatsapp,
-  BsLinkedin,
-  BsYoutube,
-} from "react-icons/bs";
 
 const Intro = () => {
   return (
@@ -70,31 +63,19 @@ const Intro = () => {
                 <Link href="https://www.facebook.com/Parasya.in?mibextid=LQQJ4d">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    x="0px"
-                    y="0px"
                     width="48"
                     height="48"
                     viewBox="0 0 48 48"
+                    fill="none"
                   >
-                    <linearGradient
-                      id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1"
-                      x1="9.993"
-                      x2="40.615"
-                      y1="9.993"
-                      y2="40.615"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop offset="0" stop-color="#2aa4f4"></stop>
-                      <stop offset="1" stop-color="#007ad9"></stop>
-                    </linearGradient>
                     <path
-                      fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)"
-                      d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"
-                    ></path>
+                      d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
+                      fill="#3B5998"
+                    />
                     <path
-                      fill="#fff"
-                      d="M26.707,29.301h5.176l0.813-5.258h-5.989v-2.874c0-2.184,0.714-4.121,2.757-4.121h3.283V12.46 c-0.577-0.078-1.797-0.248-4.102-0.248c-4.814,0-7.636,2.542-7.636,8.334v3.498H16.06v5.258h4.948v14.452 C21.988,43.9,22.981,44,24,44c0.921,0,1.82-0.084,2.707-0.204V29.301z"
-                    ></path>
+                      d="M26.5015 38.1115V25.0542H30.1059L30.5836 20.5546H26.5015L26.5077 18.3025C26.5077 17.1289 26.6192 16.5001 28.3048 16.5001H30.5581V12H26.9532C22.6231 12 21.0991 14.1828 21.0991 17.8536V20.5551H18.4V25.0547H21.0991V38.1115H26.5015Z"
+                      fill="white"
+                    />
                   </svg>
                 </Link>
                 <Link href="https://www.youtube.com/@parasyadigitalacademy">
