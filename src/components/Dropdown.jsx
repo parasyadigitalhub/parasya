@@ -4,8 +4,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import Link from "next/link";
 const DropDown = () => {
   const links = [
-    { href: "/incorporation#incorporation", label: "Company Incorporation" },
-    { href: "/incorporation#legal", label: "Legal Support" },
+    { href: "/incorporation#legal", label: "Company Incorporation" },
     { href: "/social", label: "Social Media and Marketing" },
     { href: "/web", label: "Website development" },
     { href: "/web#application", label: "Application development" },
