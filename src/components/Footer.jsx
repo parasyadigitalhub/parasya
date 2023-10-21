@@ -30,7 +30,7 @@ const Footer = () => {
               <Link href="/">Home</Link>
             </div>
             <div className="whitespace-nowrap mx-3 hover:text-black duration-300 ease-in-out">
-              <Link href="/">services</Link>
+              <Link href="/services">services</Link>
             </div>
             <div className="whitespace-nowrap mx-3 hover:text-black duration-300 ease-in-out">
               <Link href="/aboutus">About us</Link>
