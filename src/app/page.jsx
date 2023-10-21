@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div
-      className="snap-y snap-mandatory w-screen h-screen overflow-scroll overflow-x-hidden"
+      className=" w-screen h-screen overflow-scroll overflow-x-hidden"
       style={{ scrollBehavior: "smooth" }}
     >
       <div className="snap-center">
@@ -23,6 +23,9 @@ export default function Home() {
       </div>
       <div className="snap-center" id="testmonial">
         <Testmonial />
+      </div>
+      <div className="snap-center" id="testmonial">
+        <Footer />
       </div>
     </div>
   );

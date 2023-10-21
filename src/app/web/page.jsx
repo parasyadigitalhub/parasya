@@ -3,6 +3,7 @@ import WebApp from "@/components/WebApp";
 import Website from "@/components/Website";
 import Application from "@/components/Application";
 import Process from "@/components/Process";
+import Footer from "@/components/Footer";
 
 const Web = () => {
   return (
@@ -14,6 +15,7 @@ const Web = () => {
       <Website />
       <Application />
       <Process />
+      <Footer />
     </div>
   );
 };

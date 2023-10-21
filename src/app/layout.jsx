@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Fixedicon from "@/components/Fixedicon";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -9,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Parasya",
   description: "Solution for your digital life",
-  favicon: "/logo.png",
+  favicon: "/favicon.ico",
 };
 
 export default function RootLayout({ children }) {
@@ -20,7 +19,6 @@ export default function RootLayout({ children }) {
           <Navbar />
           <Fixedicon />
           {children}
-          <Footer />
         </div>
       </body>
     </html>

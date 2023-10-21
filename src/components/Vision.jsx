@@ -31,8 +31,10 @@ const Vision = () => {
             </div>
           </div>
 
-          <div className="relative pb-16 w-3/4 h-full hidden lg:block">
-            <Image src="/logo.png" layout="fill" objectFit="fill" />
+          <div className="pl-64 relative pb-16 w-full h-full hidden lg:block flex justify-center items-center">
+            <div className="w-1/2 h-1/2 aspect-video scale-[1.25]">
+              <Image src="/logo.png" layout="fill" objectFit="fill" />
+            </div>
           </div>
           {""}
         </div>{" "}

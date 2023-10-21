@@ -76,15 +76,15 @@ const AboutUs = () => {
     },
   ];
   return (
-    <div className="relative w-full h-full bg-pearlwhite">
-      <div className=" top-0 left-0  w-full h-1/2 flex flex-col lg:flex-row justify-between items-center">
+    <div className="relative w-full h-full bg-pearlwhite overflow-x-hidden">
+      <div className=" top-0 left-0  w-full h-1/2 flex flex-col lg:flex-row justify-around items-center">
         <div className="relative text-pred text-4xl lg:text-6xl font-raleway font-bold p-4 text-center w-full lg:w-1/2">
           <p className="text-center leading-[150%] drop-shadow-xl">
             We Are The <br />{" "}
             <span className="about-text-grad">Dream Makers</span>
           </p>
         </div>
-        <div className="relative h-full w-3/4 lg:w-1/2 drop-shadow-3xl hover:filter-none duration-300 ease-in-out rounded-lg mt-4  lg:mt-16 mx-8">
+        <div className="relative aspect-video w-3/4 lg:w-2/5 drop-shadow-3xl hover:filter-none duration-300 ease-in-out rounded-lg mt-4  lg:mt-16 mx-8">
           <Image
             src="/team/prajyuwork.jpg"
             layout="fill"

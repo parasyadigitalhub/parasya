@@ -1,6 +1,7 @@
 import React from "react";
 import Incorporate from "@/components/Incorporate";
 import Legal from "@/components/Legal";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
       <div className="snap-center" id="legalsupport">
         <Incorporate />
       </div>
+
+      <Footer />
     </div>
   );
 };

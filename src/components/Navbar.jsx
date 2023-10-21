@@ -24,7 +24,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="hidden sm:flex w-1/4 sm:mr-16  h-16 justify-between items-center font-nunito font-bold text-[#1c1c1c] text-lg">
+        <div className="hidden sm:flex w-1/4   h-16 justify-between items-center font-nunito font-bold text-[#1c1c1c] text-md">
           <div className="whitespace-nowrap mx-3 hover:text-pred duration-300 ease-in-out">
             <Link href="/">Home</Link>
           </div>

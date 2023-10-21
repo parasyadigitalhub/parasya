@@ -1,6 +1,7 @@
 import React from "react";
 import Social from "@/components/Social";
 import SocialCardList from "@/components/SocialCardList";
+import Footer from "@/components/Footer";
 
 const SocialCard = () => {
   return (
@@ -11,6 +12,7 @@ const SocialCard = () => {
       <div className="snap-center">
         <SocialCardList />
       </div>
+      <Footer />
     </div>
   );
 };
