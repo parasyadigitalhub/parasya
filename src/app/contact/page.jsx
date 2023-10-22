@@ -147,12 +147,14 @@ const Contact = () => {
             </div>
             <div className="w-full text-center">
               {" "}
-              <button
-                type="submit"
-                class="text-white bg-pred hover:bg-red-800 duration-300 ease-in-out focus:ring-4 focus:outline-none focus:ring-red-300 font-raleawy text-2xl font-medium rounded-lg text-sm w-full sm:w-auto px-32 py-3 text-center"
-              >
-                Connect
-              </button>
+              <a href="https://wa.me/message/WYHC7UEJBHHUB1">
+                <button
+                  type="submit"
+                  class="text-white bg-pred hover:bg-red-800 duration-300 ease-in-out focus:ring-4 focus:outline-none focus:ring-red-300 font-raleawy text-2xl font-medium rounded-lg text-sm w-full sm:w-auto px-32 py-3 text-center"
+                >
+                  Connect
+                </button>
+              </a>
             </div>
           </form>
         </div>

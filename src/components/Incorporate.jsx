@@ -89,12 +89,14 @@ const Incorporate = () => {
                   <option value="LLP">LLP</option>
                   <option value="Private Limited">Private Limited</option>
                 </select>
-                <button
-                  type="submit"
-                  className="bg-pred rounded-md text-white font-bold px-6 py-3 text-center hover:bg-white hover:text-pred duration-300 ease-in-out"
-                >
-                  Get Started
-                </button>
+                <a href="https://wa.me/message/WYHC7UEJBHHUB1">
+                  <button
+                    type="submit"
+                    className="bg-pred rounded-md text-white font-bold px-6 py-3 text-center hover:bg-white hover:text-pred duration-300 ease-in-out"
+                  >
+                    Get Started
+                  </button>
+                </a>
               </div>
             </div>
           </div>

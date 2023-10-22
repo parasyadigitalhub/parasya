@@ -26,9 +26,7 @@ const Legal = () => {
         </div>
       </div>
       <div className=" lg:h-full flex justify-around items-center">
-        <div className="flex justify-center items-center h-full pt-32 cursor-pointer"></div>
         <LegalCard />
-        <div className="flex justify-center items-center h-full pt-32 cursor-pointer"></div>
       </div>
     </div>
   );

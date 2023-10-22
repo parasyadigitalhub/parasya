@@ -27,7 +27,7 @@ const Testmonial = () => {
               </span>
               <br />
               <span className="text-sm font-medium">
-                CEO[Gray chemicals pvt ldt]
+                CEO[Gray chemicals pvt ltd]
               </span>
 
               <div class="flex items-center space-x-1">
