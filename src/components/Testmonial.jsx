@@ -196,12 +196,11 @@ const Testmonial = () => {
             <div className="pl-4">
               <span className="text-xl font-bold font-raleway">
                 Saleena Rangan
-              </span>
-
+              </span>{" "}
+              <br />
               <span className="text-sm font-medium">
                 CEO[Genius international school]
               </span>
-
               <div class="flex items-center space-x-1">
                 <svg
                   class="w-4 h-4 text-yellow-300"
