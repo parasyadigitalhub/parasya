@@ -1,45 +1,73 @@
 import React from "react";
-import Image from "next/image";
 
 const LegalCard = () => {
   return (
     <div className="flex justify-around items-end w-full h-full scale-[0.8] lg:scale-[1]">
       <div className="bg-[#DCB280] rounded-xl w-[428px] h-[543px] p-6">
+        <div className="flex flex-col items-center text-xl font-extrabold">
+          <p>TALK TO OUR EXPERTS</p>
+        </div>
         <div className="flex justify-around items-center w-full h-36">
-          <div className="bg-white rounded-[50%] w-36 h-36 mt-4 relative">
-            <Image
-              src="/advocate.jpg"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-[50%]"
-            />
+          <div className=" w-36 h-36 mt-4 relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="147"
+              height="147"
+              viewBox="0 0 147 147"
+              fill="none"
+            >
+              <path
+                d="M92.333 87.8007L85.5926 85.555L83.1678 80.7121C85.3484 78.4924 86.8651 75.5568 87.3729 72.4942L87.6723 70.6813H90.2565C92.6032 70.6813 94.5137 68.7741 94.5137 66.4243V57.4871C94.5137 45.7542 84.9677 36.2051 73.2312 36.2051C61.4687 36.2051 51.952 45.7249 51.952 57.4871V66.4243C51.952 68.2729 53.1367 69.8547 54.7901 70.4372V72.1003C54.7901 74.4469 56.6973 76.3574 59.0472 76.3574H60.2938C60.9089 77.6918 61.7063 78.9318 62.673 80.0416C62.8748 80.2727 63.0831 80.5005 63.2979 80.7186L60.8764 85.555L54.1326 87.8007C46.2921 90.4141 40.5996 98.6678 40.5996 107.423C40.5996 108.207 41.2343 108.845 42.0187 108.845H104.444C105.228 108.845 105.863 108.21 105.863 107.423C105.863 98.6646 100.174 90.4109 92.333 87.8007ZM91.6756 66.421C91.6756 67.2021 91.0409 67.84 90.2565 67.84H88.0889C88.4502 65.0508 88.691 62.0761 88.7887 59.1469C88.7887 59.0656 88.7919 58.9842 88.7952 58.9061H91.6723L91.6756 66.421ZM56.2059 67.84C55.4248 67.84 54.7868 67.2054 54.7868 66.421V58.9028H57.6672C57.6705 59.0493 57.677 59.199 57.6835 59.3487C57.6835 59.3552 57.6835 59.3585 57.6835 59.3585V59.365C57.7812 62.2128 58.022 65.1094 58.3703 67.84H56.2059ZM59.044 73.5161C58.2629 73.5161 57.6249 72.8815 57.6249 72.0971V70.6748H58.7901L59.0896 72.4876C59.1481 72.8294 59.2165 73.1744 59.3011 73.5128L59.044 73.5161ZM57.6282 56.0681H54.8422C55.5615 46.558 63.4964 39.0431 73.2312 39.0431C82.9237 39.0431 90.8945 46.5613 91.6203 56.0681H88.8342C88.7333 48.2342 82.3509 41.8811 74.5005 41.8811H71.9619C64.1115 41.8779 57.7291 48.2309 57.6282 56.0681ZM71.9619 44.7159H74.5005C80.857 44.7159 86.0026 49.9168 85.9994 56.2666C85.9994 56.7125 85.9961 57.0998 85.9864 57.4545V57.4675L84.2126 57.2137C79.3924 56.527 74.839 54.252 71.3956 50.8053C71.1287 50.5384 70.7674 50.3887 70.3931 50.3887C66.5819 50.3887 62.9333 52.1267 60.5249 55.0591C61.1205 49.2854 66.0025 44.7159 71.9619 44.7159ZM62.2434 73.5161C61.5338 71.1532 60.7169 64.2046 60.5411 59.749L62.4516 57.2039C64.2059 54.8638 66.9301 53.4123 69.8366 53.2463C73.6543 56.8817 78.595 59.2804 83.8155 60.0257L85.905 60.3251C85.7683 63.2868 85.4819 66.2615 85.0718 68.9954V68.9987C84.9416 69.8807 84.8407 70.4437 84.5771 72.0255C83.8285 76.5331 80.4631 80.6079 76.027 81.7178C74.1979 82.1767 72.2743 82.1767 70.4484 81.7178C67.6754 81.0245 65.1368 79.1076 63.4964 76.3606H66.3866C66.9724 78.014 68.551 79.1987 70.3996 79.1987H73.2312C75.5844 79.1987 77.4884 77.2947 77.4884 74.9416C77.4884 72.5918 75.5811 70.6813 73.2312 70.6813H70.3964C68.5021 70.6813 66.9496 71.9051 66.3801 73.5194H62.2434V73.5161ZM70.2759 84.5851C71.2491 84.7869 72.2385 84.8943 73.2312 84.8943C74.0091 84.8943 74.787 84.8292 75.5518 84.7023L73.0424 87.3515L70.2759 84.5851ZM71.0929 89.4182L66.5949 94.1765C65.3581 91.8038 64.2906 89.3401 63.4183 86.8113L65.1107 83.4297L71.0929 89.4182ZM81.1173 82.9513L83.0441 86.8113C82.1686 89.3401 81.1076 91.8104 79.8675 94.1797L75.0506 89.3661L81.1173 82.9513ZM68.9773 74.9351C68.9773 74.1508 69.612 73.5128 70.3964 73.5128H73.2312C74.0123 73.5128 74.6503 74.1508 74.6503 74.9351C74.6503 75.7195 74.0156 76.3541 73.2312 76.3541H70.3964C69.612 76.3541 68.9773 75.7195 68.9773 74.9351ZM43.4963 106.004C44.0561 98.977 48.7364 92.5882 55.0277 90.4857L61.0001 88.5004C62.0969 91.524 63.4508 94.4629 65.0391 97.2586C65.0424 97.2618 65.0424 97.2651 65.0456 97.2716C66.2043 99.3123 67.5127 101.307 68.9285 103.202L70.673 106.001L43.4963 106.004ZM73.2312 104.741L71.3077 101.652C71.2882 101.617 71.2654 101.584 71.2393 101.555C70.0904 100.019 69.0164 98.4172 68.0432 96.7769L73.101 91.4263L78.4322 96.7574C77.4493 98.4107 76.372 100.019 75.2231 101.555C75.1547 101.643 75.2556 101.499 73.2312 104.741ZM75.7861 106.004L77.5339 103.205C78.9562 101.304 80.2711 99.296 81.4461 97.2261C81.4526 97.213 81.4591 97.2 81.4656 97.187C83.0344 94.4173 84.3753 91.5012 85.4624 88.5004L91.4315 90.4857C97.7293 92.5882 102.406 98.9738 102.966 106.004H75.7861Z"
+                fill="black"
+              />
+              <path
+                d="M68.9763 74.935C68.9763 74.1506 69.611 73.5127 70.3954 73.5127H73.2302C74.0113 73.5127 74.6493 74.1506 74.6493 74.935C74.6493 75.7193 74.0146 76.354 73.2302 76.354H70.3954C69.611 76.354 68.9763 75.7193 68.9763 74.935Z"
+                fill="#FF0000"
+              />
+              <path
+                d="M91.6753 66.4207C91.6753 67.2018 91.0406 67.8397 90.2563 67.8397H88.0886C88.4499 65.0505 88.6907 62.0758 88.7884 59.1466C88.7884 59.0652 88.7916 58.9839 88.7949 58.9058H91.672L91.6753 66.4207Z"
+                fill="#FF0000"
+              />
+              <path
+                d="M56.2054 67.84C55.4243 67.84 54.7864 67.2054 54.7864 66.421V58.9028H57.6668C57.67 59.0493 57.6765 59.199 57.6831 59.3487C57.6831 59.3552 57.6831 59.3585 57.6831 59.3585V59.365C57.7807 62.2128 58.0215 65.1094 58.3698 67.84H56.2054Z"
+                fill="#FF0000"
+              />
+            </svg>
           </div>
-          <div className="flex h-full items-end justify-start w-1/2">
-            <span className="font-nunito font-bold text-xl whitespace-nowrap">
-              <span className="text-lg font-bold">Adv.</span> Peter Henderson
-            </span>
+          <div className="">
+            <p className="text-base font-sans">
+              <span className="text-xl font-extrabold">.</span> With 3+ years of
+              experience
+            </p>
+            <p className="text-base font-sans">
+              <span className="text-xl font-extrabold">.</span> Honest legal
+              counsel
+            </p>{" "}
+            <p className="text-base font-sans">
+              <span className="text-xl font-extrabold py-2">.</span> Tailored
+              service in wide area
+            </p>
           </div>
         </div>
-        <p className="text-center w-full mt-4 text-xs font-semibold font-nunito">
-          Degree from: Pineville University, Pineville, New Hampshire
-        </p>
-        <p className="text-center mt-4 font-bold text-sm font-nunito">
-          5+ years of experience
-        </p>
+
         <div className="flex flex-col w-full  justify-center items-center mt-4">
-          <p className="text-base font-nunito w-[331px] font-bold text-center leading-normal mb-6">
-            “Working with Parasya was a game-changer for my business. Their
-            expertise in digital marketing and web development helped us reach
-            new heights. The team's dedication, creativity, and attention to
-            detail truly set them apart. I highly recommend parasya to anyone
-            looking to achieve outstanding results”
+          <p className="text-lg font-nunito w-[331px] font-bold text-center leading-normal mb-6">
+            “At Parasya, we understand that legal matters can be complex and
+            often intimidating. Our team of experienced attorneys is here to
+            provide you with expert legal counsel and representation, ensuring
+            your rights and interests are protected. With a commitment to
+            professionalism, integrity, and client-centric solutions, we are
+            your trusted partners in navigating the intricacies of the legal
+            world.”
           </p>
-          <button
-            type="submit"
-            className="bg-pred rounded-xl text-3xl font-mulish text-white font-bold px-5 py-2.5 text-center w-72"
-          >
-            BOOK NOW
-          </button>
+          <a href="https://wa.me/message/WYHC7UEJBHHUB1">
+            <button
+              type="submit"
+              className="bg-pred rounded-xl text-3xl font-mulish text-white font-bold px-5 py-2.5 text-center w-72 hover:bg-white hover:text-pred"
+            >
+              CHAT WITH US
+            </button>
+          </a>
         </div>
       </div>
     </div>

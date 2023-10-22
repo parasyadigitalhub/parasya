@@ -22,7 +22,13 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">Joseph</span>
+              <span className="text-xl font-bold font-raleway">
+                Noufal Qatar{" "}
+              </span>
+              <br />
+              <span className="text-sm font-medium">
+                CEO[Gray chemicals pvt ldt]
+              </span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -102,8 +108,12 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">
-                Sarah John
+              <span className="text-xl font-bold font-raleway">
+                Sawad Moosa
+              </span>
+              <br />
+              <span className="text-sm font-medium">
+                CEO[Allmarai Official Store]
               </span>
 
               <div class="flex items-center space-x-1">
@@ -184,7 +194,13 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">Jennifer</span>
+              <span className="text-xl font-bold font-raleway">
+                Saleena Rangan
+              </span>
+
+              <span className="text-sm font-medium">
+                CEO[Genius international school]
+              </span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -264,8 +280,11 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-2xl font-bold font-raleway">Abhijith</span>
-
+              <span className="text-xl font-bold font-raleway">
+                Ashker Sithara
+              </span>{" "}
+              <br />
+              <span className="text-sm font-medium">CEO[Sithara Silks]</span>
               <div class="flex items-center space-x-1">
                 <svg
                   class="w-4 h-4 text-yellow-300"

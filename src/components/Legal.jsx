@@ -26,39 +26,9 @@ const Legal = () => {
         </div>
       </div>
       <div className=" lg:h-full flex justify-around items-center">
-        <div className="flex justify-center items-center h-full pt-32 cursor-pointer">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="94"
-            viewBox="0 0 24 94"
-            fill="none"
-          >
-            <path
-              d="M21 3L3 47L21 91"
-              stroke="white"
-              stroke-width="5"
-              stroke-linecap="round"
-            />
-          </svg>
-        </div>
+        <div className="flex justify-center items-center h-full pt-32 cursor-pointer"></div>
         <LegalCard />
-        <div className="flex justify-center items-center h-full pt-32 cursor-pointer">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="94"
-            viewBox="0 0 24 94"
-            fill="none"
-          >
-            <path
-              d="M3 3L21 47L3 91"
-              stroke="white"
-              stroke-width="5"
-              stroke-linecap="round"
-            />
-          </svg>
-        </div>
+        <div className="flex justify-center items-center h-full pt-32 cursor-pointer"></div>
       </div>
     </div>
   );
