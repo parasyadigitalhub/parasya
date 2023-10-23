@@ -22,9 +22,7 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-xl font-bold font-raleway">
-                Noufal Qatar{" "}
-              </span>
+              <span className="text-xl font-bold font-raleway">Noufal </span>
               <br />
               <span className="text-sm font-medium">
                 CEO[Gray chemicals pvt ltd]
@@ -113,7 +111,7 @@ const Testmonial = () => {
               </span>
               <br />
               <span className="text-sm font-medium">
-                CEO[Allmarai Official Store]
+                CEO[Almarai Official Store]
               </span>
 
               <div class="flex items-center space-x-1">

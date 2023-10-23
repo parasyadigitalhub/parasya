@@ -14,10 +14,10 @@ const Footer = () => {
     <div className="bg-red-700 min-h-[150px] md:h-100 w-full text-white shadow-md">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between item-centre gap-y-5 py-16 md:py-8">
-          <div className="scale-[0.65] items-center mx-auto">
+          <div className="scale-[0.65] items-center mx-auto ">
             <Link href="/">
               <Image
-                className="mx-2"
+                className="mx-2 "
                 src="/logo.png"
                 width={205}
                 height={75}
