@@ -22,10 +22,12 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-xl font-bold font-raleway">Noufal </span>
+              <span className="text-xl font-bold font-raleway">
+                Saleena Rangan
+              </span>
               <br />
               <span className="text-sm font-medium">
-                CEO[Gray chemicals pvt ltd]
+                CEO[Genius International School]
               </span>
 
               <div class="flex items-center space-x-1">
@@ -79,13 +81,13 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              Parasya has been a valuable partner in my business's online
-              journey. Their SEO strategies have improved our search engine
-              rankings, and their content marketing efforts have generated
-              quality leads. The only reason I'm not giving them a perfect score
-              is that I occasionally felt the need for more transparent
-              reporting on the progress of our campaigns. Nonetheless, their
-              expertise is undeniable, and I'm pleased with the overall results.
+              We've had the pleasure of working with Parasya for our
+              international school, and their digital advertising expertise has
+              been nothing short of exceptional. Their ability to craft
+              effective and visually stunning advertisements tailored to our
+              target audience has significantly increased our school's
+              visibility and enrollment rates, making them an invaluable partner
+              in our school's growth and success.
             </span>
           </div>
         </div>
@@ -107,12 +109,10 @@ const Testmonial = () => {
             </div>
             <div className="pl-4">
               <span className="text-xl font-bold font-raleway">
-                Sawad Moosa
+                Ashker Sithara
               </span>
               <br />
-              <span className="text-sm font-medium">
-                CEO[Almarai Official Store]
-              </span>
+              <span className="text-sm font-medium">CEO[Sithara Silks]</span>
 
               <div class="flex items-center space-x-1">
                 <svg
@@ -165,13 +165,14 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              I've been working with Parasya for the past year, and I couldn't
-              be happier with their digital marketing services. Their team is
-              incredibly knowledgeable and has helped boost our online presence
-              significantly. Our website traffic has increased, and our social
-              media engagement is through the roof. They are responsive,
-              creative, and results-driven. I highly recommend Parasya for
-              anyone looking to elevate their digital marketing game!
+              Our partnership with Parasya has truly been a game-changer for our
+              clothing store. Their innovative use of specialty posters and ads
+              in their digital marketing strategies has not only boosted our
+              online presence but also led to a remarkable increase in sales.
+              Their team's creative approach, combined with their expert
+              knowledge of specialty visuals, has made them an indispensable
+              asset. I couldn't be happier with the eye-catching and engaging
+              results we've achieved together.
             </span>
           </div>
         </div>
@@ -193,11 +194,11 @@ const Testmonial = () => {
             </div>
             <div className="pl-4">
               <span className="text-xl font-bold font-raleway">
-                Saleena Rangan
+                Sawad Moosa
               </span>{" "}
               <br />
               <span className="text-sm font-medium">
-                CEO[Genius international school]
+                CEO[Almarai Official Store]
               </span>
               <div class="flex items-center space-x-1">
                 <svg
@@ -250,13 +251,14 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              Parasya has been a game-changer for our social media marketing
-              efforts. Their creative team consistently delivers eye-catching
-              content, and their community management skills have helped us
-              connect with our audience on a deeper level. What sets them apart
-              is their ability to adapt to the ever-changing social media
-              landscape, ensuring our campaigns stay relevant. Highly
-              recommended for businesses looking to dominate social media!
+              Our experience with Parasya has been fantastic! Their digital
+              marketing strategies have given our store a significant boost in
+              online visibility and sales. Their team is responsive, creative,
+              and truly understands our needs. What sets them apart is their
+              ability to adapt to the latest digitalization trends and offer
+              innovative services that keep us ahead of the curve. We're
+              delighted with the results and look forward to continuing our
+              partnership.
             </span>
           </div>
         </div>
@@ -277,11 +279,9 @@ const Testmonial = () => {
               </svg>
             </div>
             <div className="pl-4">
-              <span className="text-xl font-bold font-raleway">
-                Ashker Sithara
-              </span>{" "}
+              <span className="text-xl font-bold font-raleway">Alex paul</span>{" "}
               <br />
-              <span className="text-sm font-medium">CEO[Sithara Silks]</span>
+              <span className="text-sm font-medium">CEO[Angel Digitals]</span>
               <div class="flex items-center space-x-1">
                 <svg
                   class="w-4 h-4 text-yellow-300"
@@ -333,13 +333,15 @@ const Testmonial = () => {
           </div>
           <div className="pt-4 text-left">
             <span className="text-xs font-raleway font-medium pt-4 p-2 text-left">
-              As a tech startup, we needed a digital marketing partner who
-              understood our niche and could help us stand out. Parasya exceeded
-              our expectations. Their PPC campaigns have driven targeted traffic
-              to our site, and their email marketing strategies have helped us
-              nurture leads effectively. The team at Parasya is not just skilled
-              but genuinely passionate about what they do. They've played a
-              pivotal role in our growth.
+              I just had to take a moment to express how thrilled I am with the
+              work of Parasya. As a electronics store owner, their services have
+              transformed the way we do business. Their deep knowledge of our
+              industry and their ability to keep us at the forefront of digital
+              trends is invaluable. Their customized marketing strategies have
+              not only boosted our online presence but have also significantly
+              increased our sales. Their team is a dream to work with,
+              responsive and proactive, and they genuinely care about our
+              success.
             </span>
           </div>
         </div>
