@@ -29,7 +29,7 @@ const AboutUs = () => {
     {
       img: "/team/abhay.jpg",
       name: "Abhay",
-      role: " Senior App developer",
+      role: " Technical Lead",
       instagram: "",
       facebook: "",
       youtube: "",
