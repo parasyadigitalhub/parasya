@@ -13,19 +13,19 @@ const Footer = () => {
   return (
     <div className="bg-red-700 min-h-[150px] md:h-100 w-full text-white shadow-md">
       <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row md:justify-between item-centre gap-y-5 py-16 md:py-8">
-          <div className="scale-[0.65] items-center mx-auto ">
+        <div className="flex flex-col object-fill md:flex-row md:justify-between item-centre gap-y-5 py-16 md:py-8">
+          <div className=" items-center mx-auto  ">
             <Link href="/">
               <Image
-                className="mx-2 "
-                src="/logo.png"
+                className="mx-2  pb-5"
+                src="/whitelogo.png"
                 width={205}
                 height={75}
                 alt="logo"
               />
             </Link>
           </div>
-          <div className="flex flex-col gap-8 md:flex-row md:pt-9 tracking-wider text-center text-lg">
+          <div className="flex flex-col mt-2 gap-8 md:flex-row md:pt-9 tracking-wider text-center text-lg">
             <div className="whitespace-nowrap mx-3 hover:text-black duration-300 ease-in-out">
               <Link href="/">Home</Link>
             </div>
@@ -178,8 +178,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col item-center">
-          <p className="item-center text-center">
+        <div className=" flex flex-col item-center ">
+          <p className="item-center text-center mb-6">
             {" "}
             © Copyright 2023 Parasya All rights reserved. | Design by Parasya
           </p>
