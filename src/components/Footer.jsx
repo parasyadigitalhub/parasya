@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row justify-center px-3 py-4">
           <div className="mx-4">
-            <Link href="https://www.youtube.com/@parasyadigitalacademy">
+            <Link href="/Privacypolicy">
               <svg
                 width="146"
                 height="46"
@@ -176,6 +176,13 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
+        </div>
+
+        <div className=" flex flex-col item-center">
+          <p className="item-center text-center">
+            {" "}
+            © Copyright 2023 Parasya All rights reserved. | Design by Parasya
+          </p>
         </div>
       </div>
     </div>

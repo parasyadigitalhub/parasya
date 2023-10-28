@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Parasya",
-  description: "Solution for your digital life",
+  description: "Elevating your identity",
   favicon: "/favicon.ico",
 };
 
