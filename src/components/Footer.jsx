@@ -87,7 +87,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-center px-3 py-4">
+        {/*   <div className="flex flex-row justify-center px-3 py-4">
           <div className="mx-4">
             <Link href="/Privacypolicy">
               <svg
@@ -176,7 +176,7 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
-        </div>
+        </div>*/}
 
         <div className=" flex flex-col item-center ">
           <p className="item-center text-center mb-6">
