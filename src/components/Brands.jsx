@@ -4,7 +4,7 @@ import Image from "next/image";
 const Brands = () => {
   return (
     <div className="contaienr mx-auto my-2">
-      <h1 className="text-center font-raleway text-5xl font-extrabold no-underline sm:underline sm:underline-offset-8 md:underline-offset-0 my-2">
+      <h1 className="text-center font-raleway text-5xl font-extrabold no-underline sm:underline sm:underline-offset-8 md:underline-offset-4 my-2">
         Brands Who Believed In Us
         <div className="flex flex-col items-center ">
           <div className="grid grid-cols-2 gap-4 mx-10 mt-10 md:grid md:grid-cols-3 ">
