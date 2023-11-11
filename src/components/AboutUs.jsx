@@ -53,7 +53,7 @@ const AboutUs = () => {
     {
       img: "/team/shadil.jpg",
       name: "Shadil",
-      role: "Socia Media Head",
+      role: "Social Media Head",
       instagram: "",
       facebook: "",
       youtube: "",
