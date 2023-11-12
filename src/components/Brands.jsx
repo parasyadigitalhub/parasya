@@ -15,7 +15,7 @@ const Brands = () => {
               <img src="/brands/brand1.png" alt="brand" />
             </div>
             <div
-              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
+              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] hidden md:block
                flex flex-col justify-center items-center"
             >
               <img src="/brands/brand2.png" alt="brand" />
@@ -27,7 +27,7 @@ const Brands = () => {
               <img src="/brands/brand3.png" alt="brand" />
             </div>
             <div
-              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
+              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] hidden md:block
                flex flex-col justify-center items-center"
             >
               <img src="/brands/brand4.png" alt="brand" />
@@ -36,10 +36,10 @@ const Brands = () => {
               className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
                flex flex-col justify-center items-center"
             >
-              <img src="/brands/brand5.png" alt="brand" />
+              <img src="/brands/brand12.png" alt="brand" />
             </div>
             <div
-              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
+              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] hidden md:block
                flex flex-col justify-center items-center"
             >
               <img src="/brands/brand6.png" alt="brand" />
@@ -54,31 +54,31 @@ const Brands = () => {
               className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
                flex flex-col justify-center items-center"
             >
-              <img src="/brands/brand8.png" alt="brand" />
-            </div>
-            <div
-              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
-               flex flex-col justify-center items-center"
-            >
-              <img src="/brands/brand9.png" alt="brand" />
-            </div>
-            <div
-              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
-               flex flex-col justify-center items-center"
-            >
-              <img src="/brands/brand10.png" alt="brand" />
-            </div>
-            <div
-              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
-               flex flex-col justify-center items-center"
-            >
               <img src="/brands/brand11.png" alt="brand" />
             </div>
             <div
               className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
                flex flex-col justify-center items-center"
             >
-              <img src="/brands/brand12.png" alt="brand" />
+              <img src="/brands/brand9.png" alt="brand" />
+            </div>{" "}
+            <div
+              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] hidden md:block
+               flex flex-col justify-center items-center"
+            >
+              <img src="/brands/brand10.png" alt="brand" />
+            </div>{" "}
+            <div
+              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
+               flex flex-col justify-center items-center"
+            >
+              <img src="/brands/brand8.png" alt="brand" />
+            </div>{" "}
+            <div
+              className="w-[150px] h-[200px] md:w-[300px] md:h-[300px] 
+               flex flex-col justify-center items-center"
+            >
+              <img src="/brands/brand5.png" alt="brand" />
             </div>
           </div>
         </div>
