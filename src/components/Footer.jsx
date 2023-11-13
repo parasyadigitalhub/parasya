@@ -18,14 +18,14 @@ const Footer = () => {
             <Link href="/">
               <Image
                 className="mx-2  pb-5"
-                src="/whitelogo.png"
-                width={205}
-                height={75}
+                src="/logo-white.png"
+                width={255}
+                height={95}
                 alt="logo"
               />
             </Link>
           </div>
-          <div className="flex flex-col mt-2 gap-8 md:flex-row md:pt-9 tracking-wider text-center text-lg">
+          <div className="flex flex-col mt-6 gap-8 md:flex-row md:pt-9 tracking-wider text-center text-lg">
             <div className="whitespace-nowrap mx-3 hover:text-black duration-300 ease-in-out">
               <Link href="/">Home</Link>
             </div>
