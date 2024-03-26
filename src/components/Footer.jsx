@@ -78,7 +78,7 @@ const Footer = () => {
             </div>{" "}
             <div>
               {" "}
-              <Link href="https://www.youtube.com/@parasyadigitalacademy">
+              <Link href="https://linktw.in/yOJamN">
                 <BsYoutube
                   size={25}
                   className="  text-white hover:text-black hover:translate-y-1 duration-300"

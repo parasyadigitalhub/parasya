@@ -78,7 +78,7 @@ const Intro = () => {
                     />
                   </svg>
                 </Link>
-                <Link href="https://www.youtube.com/@parasyadigitalacademy">
+                <Link href="https://linktw.in/yOJamNs">
                   <svg
                     width="48"
                     height="48"

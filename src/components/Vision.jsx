@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const Vision = () => {
   return (
-    <div className="bg-[#F8F6F0] pt-8 md:pt-16 lg:pt-32 overflow-scroll">
-      <div className="flex flex-col lg:flex-row w-full h-full justify-around items-center lg:px-40">
+    <div className="bg-[#F8F6F0] pt-8 md:pt-16 lg:pt-32 overflow-hidden">
+      <div className="flex flex-col lg:flex-row  w-full h-full justify-around items-center lg:px-40">
         <div className="flex justify-left w-full h-full items-center justify-center">
           <div className="flex flex-col items-center px-16 justify-start w-1/2 font-raleway">
             <div>
@@ -31,9 +31,15 @@ const Vision = () => {
             </div>
           </div>
 
-          <div className="pl-64 relative pb-16 w-full h-full hidden lg:block flex justify-center items-center">
-            <div className="w-1/2 h-1/2 aspect-video scale-[1.25]">
-              <Image src="/logo.png" layout="fill" objectFit="fill" />
+          <div className="pl-64 relative pb-4 w-full h-full hidden lg:block mb-10 flex justify-center items-center">
+            <div className=" pb-1 mb-8 w-full h-1/2 aspect-video border-red-100 ">
+              <video
+                loop
+                autoPlay
+                className=" w-auto h-auto max-w-full mb- border border-red-700 rounded-lg dark:border-red-700"
+                src="/Parasya-Motion.mp4"
+                alt="Parasya animation video"
+              ></video>
             </div>
           </div>
           {""}

@@ -26,6 +26,15 @@ module.exports = {
       dropShadow: {
         "3xl": "2px 4px 6px black",
       },
+      animation: {
+        "loop-scroll": "loop-scroll 50s linear infinite",
+      },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
     },
   },
   plugins: [],

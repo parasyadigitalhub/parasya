@@ -103,3 +103,24 @@ body {
 *::-webkit-scrollbar {
   display: none;
 }
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.logo-container {
+  overflow: hidden;
+  width: 150px; /* Adjust the width as needed */
+}
+.logo {
+  display: inline-block;
+  animation: scroll 5s linear infinite; /* Adjust animation duration and timing function */
+}
