@@ -6,7 +6,6 @@ import Team from "@/components/Team";
 import Testmonial from "@/components/Testmonial";
 import Footer from "@/components/Footer";
 import Brands from "@/components/Brands";
-import Scroll from "@/components/Scroll";
 export default function Home() {
   return (
     <div
@@ -28,9 +27,6 @@ export default function Home() {
       </div>
       <div className="snap-center" id="testmonial">
         <Brands />
-      </div>
-      <div className="snap-center" id="testmonial">
-        <Scroll />
       </div>
       <div className="snap-center" id="testmonial">
         <Footer />
