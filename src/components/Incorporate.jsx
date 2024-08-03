@@ -7,19 +7,19 @@ const Incorporate = () => {
       name: "OPC",
       description:
         "In an OPC, you're the sole proprietor, ensuring your business thrives on your terms and vision—complete control, boundless opportunities.",
-      price: " ₹12,500",
+      price: " ₹15,500",
     },
     {
       name: "LLP",
       description:
         "A Limited Liability Partnership (LLP) combines the benefits of a partnership and a corporation, offering limited liability to its partners.",
-      price: " ₹10,100",
+      price: " ₹13,100",
     },
     {
       name: "Pvt. Ltd",
       description:
         "A Private Limited Company (Pvt. Ltd.) is a business entity with limited liability, separate legal identity, and shares not available to the public.",
-      price: " ₹13500",
+      price: " ₹16500",
     },
   ];
   return (
