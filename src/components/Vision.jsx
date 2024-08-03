@@ -32,12 +32,12 @@ const Vision = () => {
           </div>
 
           <div className="pl-64 relative pb-4 w-full h-full hidden lg:block mb-10 flex justify-center items-center">
-            <div className=" pb-1 mb-8 w-full h-1/2 aspect-video border-red-100 ">
+            <div className=" pb-1 mb-8 w-full h-1/2 aspect-video ">
               <video
                 loop
                 autoPlay
                 className=" w-auto h-auto max-w-full mb- border border-red-700 rounded-lg dark:border-red-700"
-                src="/Parasya-Motion.mp4"
+                src="/parasya-motion.mp4"
                 alt="Parasya animation video"
               ></video>
             </div>
