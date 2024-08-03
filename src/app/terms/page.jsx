@@ -2,16 +2,16 @@ import React from 'react'
 
 function page() {
   return (
-    <div className="snap-y snap-mandatory w-screen h-screen overflow-scroll overflow-x-hidden">
+    <div className="snap-y snap-mandatory w-screen h-screen overflow-scroll overflow-x-hidden bg-slate-50">
       <h1 className='text-center my-4 font-bold text-2xl text-red-700'>Terms and Conditions</h1>
-      <div className='mx-36 '>
+      <div className='mx-3 md:mx-36 '>
       <p>The domain name www.parasya.in (“Website”) is a site operated by PARASYA TECHNOLOGIES (OPC) PRIVATE LIMITED., a company incorporated under laws of India with our registered office at STS Arcade, 2nd Floor, Bramakumarees, Ashokapuram, Kozhikode - 673006,kerala, India.
       </p>
       <p>
         
       </p>
-      </div>
-      <div className='mx-36'>
+      </div>.
+      <div className='mx-3 md:mx-36'>
       <h2>Terms and Conditions</h2>
 <p>Last updated: August 03, 2024</p>
 <p>Please read these terms and conditions carefully before using Our Service.</p>

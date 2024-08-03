@@ -179,10 +179,14 @@ const Footer = () => {
         </div>*/}
 
         <div className=" flex flex-col item-center ">
+        <div className="whitespace-nowrap text-center mb-4 hover:text-black duration-300 ease-in-out">
+              <Link href="/terms">Terms and Conditions</Link>
+            </div>
           <p className="item-center text-center mb-6">
             {" "}
             © Copyright 2023 Parasya All rights reserved. | Design by Parasya
           </p>
+         
         </div>
       </div>
     </div>
